@@ -14,3 +14,35 @@
 <body>
     <h1>третья страница</h1>
     <p>Вы на 3 странице!</p>
+
+	<link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+      <form action="index.html" method="post">
+          <h2>Your basic info</h2>
+
+          <label for="name">Имя</label>
+      <input type="text" id="name" name="student_name">
+
+      <br>      <label for="mail">Фамилия</label>
+          <input type="email" id="mail" name="student_email">
+
+          <label for="password">Адрес проживания</label>
+          <input type="password" id="password" name="student_password">
+
+          <h2>При согласии<h2>
+
+          <label for="bio">Возраст</label>  <br>
+          <textarea id="bio" name="student_bio"></textarea>
+  <br>  <br>
+          <label for="courses">Выбери кем ты будешь на СВО</label>  <br>
+          <select id="courses" name="student_courses">
+              <option value="computer_engineering">Снайпером</option>
+              <option value="slectrical_engineering">Танкистом</option>
+              <option value="mechanical_engineering">Поваром</option>
+              <option value="civil_engineering">Лётчиком</option>
+              <option value="chemical_engineering">Уборщиком</option>
+          </select>
+          
+        <button type="submit">Я согласен с контрактом и бла бла бла</button>
+      </form>
